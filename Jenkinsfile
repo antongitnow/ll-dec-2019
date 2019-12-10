@@ -6,7 +6,7 @@ pipeline {
                 checkout scm
             }
         }
-	stage('build){
+	stage('build) {
             steps {
                 sh 'python --version'
                 sh 'python simple.py'
